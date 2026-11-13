@@ -1,0 +1,13 @@
+actual_subtype,predicted_subtype,count
+LumA,LumB,27
+LumB,LumA,22
+Her2,LumB,7
+LumA,Normal,7
+Normal,LumA,3
+LumB,Her2,3
+Basal,Her2,3
+LumA,Her2,2
+Normal,LumB,2
+Her2,LumA,1
+LumB,Basal,1
+Normal,Basal,1

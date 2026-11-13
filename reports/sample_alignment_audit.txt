@@ -1,0 +1,62 @@
+MY MED AI — SAMPLE ALIGNMENT AUDIT
+=============================================
+Clinical rows: 1247
+Expression sample columns: 1218
+Unique expression IDs: 1218
+
+IDENTIFIER OVERLAP
+-------------------------
+Unique UUID-field IDs: 1218
+UUID IDs matching expression headers: 0
+Unique barcode-field IDs: 526
+Barcode IDs matching expression headers: 526
+
+LABELLED ROWS
+-------------------------
+Rows with recognised subtype labels: 956
+Labelled rows matching by UUID field: 0
+Labelled rows matching by barcode field: 513
+
+IDENTIFIER QUALITY
+-------------------------
+Rows where both identifiers are present: 526
+Rows where both identifier strings are identical: 0
+Rows involved in duplicate UUID values: 29
+Rows involved in duplicate barcode values: 721
+
+UUID EXAMPLES
+-------------------------
+6ef883fc-81f3-4089-95e0-86904ffc0d38
+dd8d3665-ec9d-45be-b7b9-a85dac3585e2
+c924c2a8-ab41-4499-bb30-79705cc17d45
+1a19e068-d213-41ef-aebb-104017a883cc
+2ea9e472-a408-4ae0-975d-50a566f22b2a
+
+BARCODE EXAMPLES
+-------------------------
+TCGA-A1-A0SD-01
+TCGA-A1-A0SE-01
+TCGA-A1-A0SH-01
+TCGA-A1-A0SJ-01
+TCGA-A1-A0SK-01
+
+EXPRESSION HEADER EXAMPLES
+-------------------------
+TCGA-AR-A5QQ-01
+TCGA-D8-A1JA-01
+TCGA-BH-A0BQ-01
+TCGA-BH-A0BT-01
+TCGA-A8-A06X-01
+TCGA-A8-A096-01
+TCGA-BH-A0C7-01
+TCGA-AC-A5XU-01
+TCGA-PE-A5DE-01
+TCGA-PE-A5DC-01
+
+INTERPRETATION
+-------------------------
+This audit checks identifier overlap and uniqueness only.
+A matching identifier string does not by itself establish
+that the label and expression profile belong to the same
+biological specimen. Verify the identifier mapping against
+the source dataset documentation before accepting the join.

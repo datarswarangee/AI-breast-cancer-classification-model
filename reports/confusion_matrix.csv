@@ -1,0 +1,6 @@
+,Predicted_Basal,Predicted_Her2,Predicted_LumA,Predicted_LumB,Predicted_Normal
+Actual_Basal,17,1,0,0,0
+Actual_Her2,0,8,1,0,0
+Actual_LumA,0,0,48,4,1
+Actual_LumB,0,0,1,20,0
+Actual_Normal,0,0,2,0,0

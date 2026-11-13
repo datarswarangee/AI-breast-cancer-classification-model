@@ -1,0 +1,8 @@
+column,exists,non_missing,unique_values,overlap_with_expression,labelled_rows_matching_expression,duplicate_rows
+sampleID,True,1247,1247,1218,956,0
+sample,False,0,0,0,0,0
+_patient,False,0,0,0,0,0
+bcr_patient_barcode,True,1242,1097,0,0,286
+bcr_sample_barcode,True,1054,1054,0,0,0
+_GENOMIC_ID_TCGA_BRCA_exp_HiSeqV2,True,1218,1218,0,0,0
+_GENOMIC_ID_TCGA_BRCA_PDMarray,True,526,526,526,513,0
