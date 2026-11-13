@@ -1,4 +1,4 @@
-# My Med — AI-Powered Breast Cancer Molecular Subtype Classification
+# My Med: AI-Powered Breast Cancer Molecular Subtype Classification
 
 MyMedAI is a research-oriented machine learning project that investigates the classification of breast cancer molecular subtypes using gene expression data. It uses publicly available TCGA breast cancer data to compare machine learning models and provides a dashboard for exploring model outputs and evaluation results.
 
